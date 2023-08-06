@@ -1,0 +1,175 @@
+.character {
+    width: 120px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.character .head {
+    width: 100px;
+    height: 100px;
+    background-color: #f2c083;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.character .body {
+    width: 120px;
+    height: 120px;
+    background-color: #f2c083;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.character .hair {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.character .hair-top,
+.character .hair-side {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.character .hair-top {
+    top: 0;
+    left: 0;
+}
+
+.character .hair-side {
+    top: 20px;
+}
+
+.character .hair-left {
+    left: 0;
+}
+
+.character .hair-right {
+    right: 0;
+}
+
+.character .face {
+    width: 80px;
+    height: 80px;
+    background-color: #f2c083;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.character .ears {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    background-color: #f2c083;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.character .ear {
+    width: 10px;
+    height: 10px;
+    background-color: #f2c083;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.character .ear-left {
+    left: 0;
+}
+
+.character .ear-right {
+    right: 0;
+}
+
+.character .eyes {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.character .eye {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+}
+
+.character .eye-left {
+    left: 0;
+}
+
+.character .eye-right {
+    right: 0;
+}
+
+.character .whiskers {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    transform: rotate(0deg);
+}
+
+.character .whisker {
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.character .whisker-1 {
+    transform: rotate(30deg);
+}
+
+.character .whisker-2 {
+    transform: rotate(0deg);
+}
+
+.character .whisker-3 {
+    transform: rotate(-30deg);
+}
+
+.character .nose {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.character .mouth {
+    width: 20px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
